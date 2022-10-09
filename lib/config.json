@@ -1,0 +1,20 @@
+{
+  "thumb": "https://telegra.ph/file/8df3e8663496895db4009.jpg",
+  "namebot": "Cleo Bot",
+  "botNumber": "0@s.whatsapp.net",
+  "owner": ["6285607831410@s.whatsapp.net"],
+  "instagram": "https://instagram.com",
+  "author": "Yntkts",
+  "session": "session",
+  "email": "dpr@gmail.com",
+  "self": false,
+  "limit": { "limitUser": 15, "gameLimitUser": 10, "gameLimitPremium": 30 },
+  "packInfo":{
+    "packname": "Cleo Bot",
+    "author": "Cleo X Rull"
+  },
+  "ignore": {
+		"directory": ["umum"]
+	},
+	"timezone": "Asia/Jakarta"
+}
