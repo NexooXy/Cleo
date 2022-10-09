@@ -115,7 +115,7 @@ module.exports = handler = async (mek, conn, map) => {
 							//renderLargerThumbnail: true,
 							showAdAttribution: true,
 							body: "",
-							thumbnail: await conn.getBuffer("https://telegra.ph/file/829db99aaba4cd7695e65.jpg"),
+							thumbnail: await conn.getBuffer("https://telegra.ph/file/fcb4cce5a09308ceef492.jpg"),
 							sourceUrl: "nekopoi.care",
 						},
 				  })
@@ -206,7 +206,7 @@ module.exports = handler = async (mek, conn, map) => {
 	
 		// [ Auto Blocked +212 ]
 		if (!isGroup && require("awesome-phonenumber")("+" + msg.sender.split("@")[0]).getCountryCode() == "212") {
-			await conn.sendMessage(msg.from, { text: "Sorry i block you, Please read my whatsapp bio" });
+			await conn.sendMessage(msg.from, { text: "Sorry i block you, no +212 number" });
 			await require("delay")(3000);
 			await conn.updateBlockStatus(msg.sender, "block");
 			await conn.sendMessage(config.owner[0], {
